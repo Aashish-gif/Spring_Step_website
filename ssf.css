@@ -75,18 +75,16 @@ margin-left: 700px;
     font-size: xx-large;
     width: 100vw;
 }
-/* #mt{
-   text-align: center;
-} */
+
 #first{
     display:flex;
 }
-#video{
-    margin-top: 100px;
+#vid{
+  margin-top: 100px;
+  margin-left: 20px;
     border:2px solid black;
     height: 500px;
-    width: 900px;
-    text-align: center;
+    width: 890px; 
 }
 #finfo{
     margin-top: 120px;
@@ -143,14 +141,14 @@ flex-direction: column;
     margin-left:210px;
 }
 #sff:hover{
-    background-color: white;
+    background-color: rgb(221, 117, 117);
     color: black;
     }
     
 #fri{
     display: flex;
     margin-top: 100px;
-    background-color: rgb(249, 238, 226) ;
+    background-color:  rgb(249, 238, 226) ;
 }
 #blfri{
 margin-left: 1000px;
@@ -193,11 +191,11 @@ margin-left: 1000px;
     width:200px;
 }
 #sts:hover{
-    background-color: white;
+    background-color: rgb(221, 117, 117);
     color: black;
     }
 #about{
-    background-color: rgb(252, 245, 235);
+    background-color:  rgb(250, 248, 246) ;
     height:400px;
     width: 100vw;
 }
@@ -327,15 +325,15 @@ margin-left:240px;
     height: 50px;
 }
 #sl:hover{
-    background-color: white;
+    background-color: rgb(221, 117, 117);
     color: black;
     }
 #sssw:hover{
-    background-color: white;
+    background-color: rgb(221, 117, 117);
     color: black;
     }
 #sp:hover{
-    background-color: white;
+    background-color: rgb(221, 117, 117);
     color: black;
     }
 #ip2a{
@@ -423,17 +421,18 @@ margin-left:240px;
     margin-top: 30px;
     width: 250px;
     height: 50px;
+    cursor: pointer;
 }
 #sa:hover{
-    background-color: white;
+    background-color: rgb(221, 117, 117);
     color: black;
     }
 #sf:hover{
-    background-color: white;
+    background-color: rgb(221, 117, 117);
     color: black;
     }
 #sssp:hover{
-    background-color: white;
+    background-color: rgb(221, 117, 117);
     color: black;
     }
 #mb{
@@ -491,11 +490,11 @@ justify-content: space-evenly;
     height: 50px;
 }
 #sssm:hover{
-    background-color: white;
+    background-color: rgb(221, 117, 117);
     color: black;
     }
 #slm:hover{
-    background-color: white;
+ background-color: rgb(221, 117, 117);
     color: black;
     }
 #bgimg{
@@ -561,4 +560,82 @@ color: white;
     color: grey;
     text-align: center;
     margin-top: 10px;
+}
+footer {
+    background-color:rgb(252, 245, 235) ;
+    padding: 50px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex: 1;
+}
+
+.footer-section h4 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer-section ul li a:hover {
+    color: #007bff;
+}
+
+.footer-section p {
+    margin-bottom: 10px;
+}
+
+.footer-section form {
+    display: flex;
+}
+
+.footer-section form input[type="email"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.footer-section form button {
+    padding: 10px 20px;
+    background-color: #121313;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    color: #333;
+    margin-right: 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+    color: #eb7786;
 }
